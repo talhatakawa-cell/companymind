@@ -17,7 +17,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = 3000;
 
 // Supabase Setup
 const supabaseUrl = process.env.VITE_SUPABASE_URL || '';
